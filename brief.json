@@ -1,0 +1,110 @@
+{
+ "slug": "boretinsky-statek",
+ "zdroj_url": "https://www.boretinskystatek.cz",
+ "firma": "Bořetínský Statek",
+ "obor": [
+  "gastro a ubytování",
+  "umění a fotografie"
+ ],
+ "ico": "87311895",
+ "ares": {
+  "ico": "87311895",
+  "obchodni_jmeno": "Matyáš Habanec",
+  "pravni_forma": "101",
+  "adresa": "Vinařská 418/4, Holešovice, 17000 Praha 7",
+  "obec": "Praha",
+  "dic": "CZ8110220074",
+  "datum_vzniku": "2010-09-13",
+  "nace": [
+   "49410",
+   "74990",
+   "55",
+   "68200",
+   "G"
+  ]
+ },
+ "kontakty": {
+  "emaily": [],
+  "telefony": [
+   "+420 776 444 477"
+  ],
+  "adresa": "",
+  "socialni_site": [
+   "https://www.facebook.com/BoretinskyStatek",
+   "https://www.facebook.com/BoretinskyStatek/",
+   "https://www.instagram.com/boretinsky_statek/"
+  ]
+ },
+ "logo": {
+  "soubor": "podklady/logo.png",
+  "zdroj": "https://boretinskystatek.cz/media/favicon.png",
+  "rozmery": [
+   100,
+   100
+  ]
+ },
+ "barvy": {
+  "css_promenne": {},
+  "z_css": [
+   "#0088cc"
+  ],
+  "z_loga": [
+   "#43baff",
+   "#c2e4f9"
+  ],
+  "theme_color": null,
+  "doporucene": [
+   "#43baff",
+   "#c2e4f9",
+   "#0088cc"
+  ]
+ },
+ "fotky": [
+  {
+   "soubor": "podklady/foto/foto-01.jpg",
+   "url": "https://boretinskystatek.cz/media/hero4.jpg",
+   "sirka": 940,
+   "vyska": 305,
+   "alt": "Bořetínský Statek"
+  }
+ ],
+ "fakta": [
+  {
+   "typ": "h1",
+   "text": "Bořetínský statek",
+   "zdroj": "https://boretinskystatek.cz/"
+  },
+  {
+   "typ": "h2",
+   "text": "Bořetínský Statek",
+   "zdroj": "https://boretinskystatek.cz/"
+  },
+  {
+   "typ": "h2",
+   "text": "Okolí",
+   "zdroj": "https://boretinskystatek.cz/"
+  },
+  {
+   "typ": "h3",
+   "text": "Rychlý kontakt",
+   "zdroj": "https://boretinskystatek.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Vítáme vás na stránkách penzionu Bořetínský Statek a doufáme, že vás v našem ubytování brzy pozdravíme také osobně. Najdete nás ve vesnici Bořetín, blízko Jindřichova Hradce , na bývalé poutní cestě ke kapli sv. Anny. Vybrat si můžete z šesti dvou až třílůžkových pokojů s koupelnou a tří prostorných apartmánů . Pro děti je připravena herna , pro rodiče bar nejen s moravskými víny ale i čepovaným pivem . Pro všechny hosty je kdykoliv k dispozici prostorná vybavená kuchyně . Ráno servírujeme snídani v podobě švédského stolu. Na večer si od nás můžete objednat polopenzi nebo třeba půjčit jeden z našich grilů. Pokud máte radši špekáčky, je pro vás na zahradě připravené ohniště. Cyklisté u nás najdou vše, co potřebují ke své maximální spokojenosti a pohodlí.",
+   "zdroj": "https://boretinskystatek.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Bořetín leží v kraji Vysočina, na hranici s Jihočeským krajem, ve vzdálenosti 12 km od městečka Kamenice nad Lipou .\n\t\t\tVe středu obce je návesní rybník, kaplička, hostinec, tenisové hřiště a park s vydlážděnými chodníky. Na okraji vesnice leží rybník ke koupání a statek s koňmi . V okolí je řada cyklistických tras všech obtížností, pestrá nabídka turistických atrakcí, množství kulturních památek , vhodné podmínky pro aktivní a rodinnou dovolenou a především pak čisté ovzduší, zdravá voda a lesy nezasažené emisemi.",
+   "zdroj": "https://boretinskystatek.cz/"
+  }
+ ],
+ "chybi": [
+  "e-mail",
+  "fotky firmy/provozu/produktů (nalezeno 1, potřeba aspoň 6)",
+  "adresa / provozovna",
+  "potvrzení služeb a ceníku (nic nevymýšlet)"
+ ],
+ "popis_webu": "Bořetínský statek nabízí ubytování v pěti dvou až třílůžkových pokojích s koupelnou a ve dvou prostorných apartmánech s plně vybavenou kuchyní. Máme připravenou jak hernu pro děti, tak bar pro rodiče."
+}

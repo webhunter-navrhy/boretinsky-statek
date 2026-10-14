@@ -1,0 +1,165 @@
+{% extends "_base.html" %}
+{% set titulek = 'Bořetínský statek – penzion u Jindřichova Hradce od 880 Kč' %}
+{% set cesta = '' %}
+{% block head %}<link rel="stylesheet" href="{{ asset('fonts/fonts.css') }}">{% endblock %}
+{% block obsah %}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="stitek">Bořetín · Vysočina · u Jindřichova Hradce</p>
+      <h1>Penzion ve statku z 18.&nbsp;století</h1>
+      <p class="uvod">Šest pokojů a tři apartmány kolem dvora a zahrady, kamna v lobby, kuchyně pro hosty a ráno snídaně formou švédského stolu. Venku rybník, cyklotrasy a ticho.</p>
+      <p class="tlacitka"><a class="btn" href="#poptavka">Poslat poptávku</a><a class="btn btn-ghost" href="#obsazenost">Podívat se na obsazenost</a></p>
+    </div>
+    <div class="hero-foto">{{ img('dum.jpg', 'Bílý statek s modrými okny a rozložitým stromem před domem, Bořetínský statek', sizes='(min-width: 60rem) 52vw, 100vw') }}</div>
+  </div>
+  <ul class="fakta wrap" role="list">
+    <li><b>Snídaně</b> švédský stůl v ceně</li>
+    <li><b>Parkování a wi-fi</b> v ceně</li>
+    <li><b>Kuchyně</b> pro hosty po celý pobyt</li>
+    <li><b>Od 880 Kč</b> za dospělého a noc</li>
+  </ul>
+</section>
+
+<section class="sekce statek" id="statek">
+  <div class="wrap dva">
+    <div class="sloupec-text">
+      <h2>Starý statek, nové pohodlí</h2>
+      <p>Penzion byl citlivě zrekonstruován pod taktovkou architektky Moniky Kirby z původního statku z 18. století. Důraz byl na pohodlí, funkčnost a čisté detaily. Stavení je propojené s prostorným dvorem a jednoduchou vesnickou zahradou.</p>
+      <p>V přízemí je útulná lobby s kamny a časopisy, odtud se vchází do prostorné kuchyně, která je hostům k dispozici celý pobyt. Je vybavená lednicí, mrazákem, mikrovlnkou, toasterem, konvicí a nádobím. Za poplatek si můžete natočit pivo, uvařit kávu nebo vybrat z bio limonád, džusů a vín.</p>
+      <p>Děti mají čistou hernu s hračkami, pastelkami a knihami, dospělí jídelnu s kamny a dveřmi rovnou na zápraží.</p>
+    </div>
+    <div class="sloupec-foto">
+      {{ img('nadvori.jpg', 'Nádvoří statku s oranžovou střechou, zahradou a zápražím', sizes='(min-width: 60rem) 40vw, 100vw') }}
+      {{ img('lobby.jpg', 'Lobby s kamny, dřevěným schodištěm a proutěným stínidlem', sizes='(min-width: 60rem) 24vw, 70vw', cls='posun') }}
+    </div>
+  </div>
+</section>
+
+<section class="sekce pokoje" id="pokoje">
+  <div class="wrap">
+    <h2>Pokoje a apartmány</h2>
+    <p class="podnadpis">Všechny pokoje mají vlastní koupelnu s WC, nový nábytek a dekorace v anglickém stylu.</p>
+    <ul class="dvere-seznam" role="list">
+      {% for p in data.pokoje %}
+      <li class="dvere">
+        <span class="cedulka" aria-hidden="true">{{ p.c }}</span>
+        <div><h3>{{ p.nazev }} <span class="lide">{{ p.lide }}</span></h3><p>{{ p.text }}</p></div>
+      </li>
+      {% endfor %}
+    </ul>
+    <div class="pas-foto">
+      {{ img('loznice-kvetiny.jpg', 'Manželská postel s květinovým povlečením a světlým dřevěným čelem', sizes='(min-width: 60rem) 33vw, 100vw') }}
+      {{ img('apartman-stul.jpg', 'Podkrovní apartmán s jídelním stolem pod šikmým stropem', sizes='(min-width: 60rem) 33vw, 100vw') }}
+      {{ img('koupelna.jpg', 'Růžová koupelna se střešním oknem a dřevěným trámem', sizes='(min-width: 60rem) 33vw, 100vw') }}
+    </div>
+  </div>
+</section>
+
+<section class="sekce obsazenost" id="obsazenost">
+  <div class="wrap dva">
+    <div class="sloupec-text">
+      <h2>Kdy máme volno</h2>
+      <p>Kalendář obsazenosti vidíte přímo na webu, bez volání a bez čekání na odpověď. Termíny, které jsou volné, pak stačí poslat poptávkou, a my se ozveme s přesnou kalkulací.</p>
+      <p class="drobne">Zobrazí se kalendář ke čtení bez detailů rezervací. Rezervace a platby dál zůstávají pod Vaší kontrolou.</p>
+    </div>
+    <div class="kal-box">
+      <div class="kal" data-kal aria-label="Kalendář obsazenosti"></div>
+      <ul class="kal-legenda" role="list"><li><i class="vol"></i>Volno</li><li><i class="obs"></i>Obsazeno</li></ul>
+      <p class="demo-poznamka">Ukázka vzhledu s vymyšlenými termíny. Na ostrém webu je tu Váš Google kalendář.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sekce cenik" id="cenik">
+  <div class="wrap dva">
+    <div class="sloupec-text">
+      <h2>Ceník</h2>
+      <p>Cena je za osobu a noc. Při rezervaci celého objektu se počítá individuálně.</p>
+      <table class="ceny">
+        <thead><tr><th></th><th>Vedlejší sezóna</th><th>Hlavní sezóna</th></tr></thead>
+        <tbody>
+          <tr><th>Dospělí</th><td>880 Kč</td><td>910 Kč</td></tr>
+          <tr><th>Děti 2–12&nbsp;let</th><td>470 Kč</td><td>490 Kč</td></tr>
+          <tr><th>Děti do 2&nbsp;let</th><td colspan="2">zdarma</td></tr>
+        </tbody>
+      </table>
+      <p class="drobne">Vedlejší sezóna 15. 3.–27. 6. (kromě Velikonoc) a 1. 9.–14. 12. Hlavní sezóna 28. 6.–31. 8. a 28. 12.–1. 1. V ceně není poplatek obci 15 Kč za osobu a noc.</p>
+    </div>
+    <div class="sloupec-text otazky">
+      <details open><summary>Co je v ceně</summary><p>Snídaně formou švédského stolu, parkování a wi-fi.</p></details>
+      <details><summary>Děti</summary><p>Dětskou židličku, vaničku nebo stupátko půjčíme zdarma. Dřevěná postýlka s ložním prádlem je 250 Kč na celý pobyt. Snídaně pro děti do 2 let 30 Kč.</p></details>
+      <details><summary>Na kolik nocí</summary><p>V hlavní sezóně minimálně pět nocí, kratší pobyty po domluvě. Jedna noc má příplatek 500 Kč za pokoj.</p></details>
+      <details><summary>Záloha a storno</summary><p>Po objednání pošleme kalkulaci, kterou potvrdíte a zaplatíte zálohu 50 % do 10 dnů. Při zrušení víc než 90 dnů předem vracíme 100 % zálohy, 60–90 dnů předem 50 %, později se záloha nevrací. Zrušení jen e-mailem. Celý penzion se platí 90 dnů před příjezdem.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="sekce okoli" id="okoli">
+  <div class="wrap">
+    <h2>Okolí a co dělat</h2>
+    <div class="dva okoli-grid">
+      <ul class="okoli-seznam" role="list">
+        {% for o in data.okoli %}<li><h3>{{ o.n }}</h3><p>{{ o.t }}</p></li>{% endfor %}
+      </ul>
+      <div class="okoli-foto">
+        {{ img('rybnicek.jpg', 'Rybníček s odrazem statku a smrků', sizes='(min-width: 60rem) 40vw, 100vw') }}
+        {{ img('koupani.jpg', 'Skok ze skály do jezera v lomu', sizes='(min-width: 60rem) 22vw, 60vw', cls='posun') }}
+      </div>
+    </div>
+    <ul class="aktivity" role="list">
+      {% for a in data.aktivity %}<li><h3>{{ a.n }}</h3><p>{{ a.t }}</p></li>{% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="sekce galerie" id="galerie">
+  <div class="wrap">
+    <h2>Statek v obrazech</h2>
+    <div class="mozaika">
+      {{ img('vecer.jpg', 'Osvětlený statek za soumraku', sizes='(min-width: 60rem) 33vw, 50vw') }}
+      {{ img('terasa.jpg', 'Zápraží s dřevěným stolem a žlutými macešky', sizes='(min-width: 60rem) 33vw, 50vw') }}
+      {{ img('gril.jpg', 'Grilování na dvoře', sizes='(min-width: 60rem) 33vw, 50vw') }}
+      {{ img('schody.jpg', 'Lobby s kachlovými kamny a dřevěným schodištěm', sizes='(min-width: 60rem) 33vw, 50vw') }}
+      {{ img('apartman-gauc.jpg', 'Světlý pokoj s lůžkem a polštáři v modré a žluté', sizes='(min-width: 60rem) 33vw, 50vw') }}
+      {{ img('dvere.jpg', 'Původní dřevěné vstupní dveře a gril', sizes='(min-width: 60rem) 33vw, 50vw') }}
+      {{ img('kaplicka.jpg', 'Zahrada statku a kaplička ve vsi', sizes='(min-width: 60rem) 33vw, 50vw') }}
+      {{ img('jidelna.jpg', 'Klenutá jídelna se stoly a kamny', sizes='(min-width: 60rem) 66vw, 100vw', cls='siroka') }}
+    </div>
+  </div>
+</section>
+
+<section class="sekce poptavka" id="poptavka">
+  <div class="wrap dva">
+    <div class="sloupec-text">
+      <h2>Napište nám termín</h2>
+      <p>Pošlete termín a počet hostů, formulář dorazí rovnou do e-mailové schránky penzionu. Odpovíme s kalkulací a potvrzením, jak jste zvyklí.</p>
+      <address>
+        <p><b>Bořetínský Statek</b><br>Bořetín 4, 394 70 Bořetín<br>GPS 49.310617, 14.947736</p>
+        <p><a href="tel:{{ site.kontakt.telefon|replace(' ','') }}">{{ site.kontakt.telefon }}</a> · <a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a></p>
+        <p><a href="https://www.facebook.com/BoretinskyStatek" rel="noopener">Facebook</a> · <a href="https://www.instagram.com/boretinsky_statek/" rel="noopener">Instagram</a></p>
+      </address>
+    </div>
+    <form class="formular" method="post" data-endpoint="{{ site.formular.endpoint }}" data-demo="{{ 1 if site.formular.demo or not site.formular.endpoint else 0 }}">
+      <div class="radek">
+        <label>Příjezd <input name="prijezd" type="date"></label>
+        <label>Odjezd <input name="odjezd" type="date"></label>
+      </div>
+      <div class="radek">
+        <label>Dospělí <input name="dospeli" type="number" min="1" inputmode="numeric"></label>
+        <label>Děti <input name="deti" type="number" min="0" inputmode="numeric"></label>
+      </div>
+      <label>Jméno <input name="jmeno" autocomplete="name" required></label>
+      <div class="radek">
+        <label>E-mail <input name="email" type="email" autocomplete="email" required></label>
+        <label>Telefon <input name="telefon" type="tel" autocomplete="tel"></label>
+      </div>
+      <label>Zpráva <textarea name="zprava" rows="4" placeholder="Který pokoj, celý objekt, dotazy…"></textarea></label>
+      <div class="past" aria-hidden="true"><label>Nevyplňovat <input name="_gotcha" tabindex="-1" autocomplete="off"></label></div>
+      <input type="hidden" name="_subject" value="{{ site.formular.predmet }}">
+      <button type="submit" class="btn">Odeslat poptávku</button>
+      <p class="formular-stav" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+{% endblock %}

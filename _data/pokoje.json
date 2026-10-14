@@ -1,0 +1,44 @@
+[
+ {
+  "c": "1",
+  "nazev": "Pokoj 1",
+  "lide": "2–3 osoby",
+  "text": "Přízemí se dřevěnou podlahou a výhledem do zahrady, jen tři schody od vchodu. V létě patří k nejchladnějším, na podzim ho hosté oblíbili kvůli teplu kamen v lobby hned vedle dveří. Manželská postel a jedno či dvě samostatná lůžka."
+ },
+ {
+  "c": "2",
+  "nazev": "Pokoj 2",
+  "lide": "4 osoby",
+  "text": "Mezonetový apartmán, nejoblíbenější u rodin s dětmi. Spí se v útulném podkroví po mlynářských schodech, dole je manželská postel, jídelní stůl a kuchyňský kout."
+ },
+ {
+  "c": "3 · 9",
+  "nazev": "Pokoje 3 a 9",
+  "lide": "2–3 osoby",
+  "text": "Originálně řešené pokoje s původními trámy a výhledem do ovocného sadu. Prostorná růžová koupelna se střešním oknem a sprchovým koutem."
+ },
+ {
+  "c": "4 · 5",
+  "nazev": "Pokoje 4 a 5",
+  "lide": "2–3 osoby",
+  "text": "Dva sousední pokoje vestavěné do štítu původní stodoly. Pro pár nebo tříčlennou rodinu, s výhledem do zahrady. Romantika, jak má být."
+ },
+ {
+  "c": "6",
+  "nazev": "Pokoj 6",
+  "lide": "apartmán",
+  "text": "Největší apartmán, navržený pro hosty z velkých měst: francouzské okno s výhledem do polí. V ložnici manželská postel a palanda, v obýváku s kuchyňským koutem rozkládací postel, jedno lůžko v průchozí místnosti."
+ },
+ {
+  "c": "7",
+  "nazev": "Pokoj 7",
+  "lide": "2 osoby",
+  "text": "Nejdál od hlavní části penzionu, takže se tu odpočine nejlépe. Výhled do smrků a na kaskádové jezírko, dvě křesílka a stoleček na víno v soukromí."
+ },
+ {
+  "c": "8",
+  "nazev": "Pokoj 8",
+  "lide": "5 osob",
+  "text": "Pětilůžkový apartmán nad bývalým průjezdem do dvora, s odděleným dvoulůžkovým pokojem pro zlobivé děti. Výhled na náves, kde se celý rok skoro nic neděje."
+ }
+]

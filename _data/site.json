@@ -1,0 +1,62 @@
+{
+ "slug": "boretinsky-statek",
+ "nazev": "Bořetínský Statek",
+ "url": "https://webhunter-navrhy.github.io/boretinsky-statek/",
+ "base": "/boretinsky-statek/",
+ "lang": "cs",
+ "popis": "Stylový penzion v původním statku z 18. století v Bořetíně u Jindřichova Hradce: 6 pokojů, 3 apartmány, snídaně formou švédského stolu, od 880 Kč za osobu.",
+ "navrh": true,
+ "domena": "",
+ "og_image": "dum.jpg",
+ "logo": "logo.png",
+ "theme_color": "#fbf7ee",
+ "typ": "LodgingBusiness",
+ "ico": "87311895",
+ "kontakt": {
+  "email": "info@boretinskystatek.cz",
+  "telefon": "+420 776 444 477",
+  "adresa": {
+   "ulice": "Bořetín 4",
+   "psc": "394 70",
+   "mesto": "Bořetín",
+   "zeme": "CZ"
+  }
+ },
+ "oteviraci_doba": [],
+ "sameas": [
+  "https://www.facebook.com/BoretinskyStatek",
+  "https://www.instagram.com/boretinsky_statek/"
+ ],
+ "cenove_rozpeti": "",
+ "formular": {
+  "endpoint": "https://formsubmit.co/ajax/info@boretinskystatek.cz",
+  "demo": true,
+  "predmet": "Poptávka ubytování z webu"
+ },
+ "nav": [
+  {
+   "text": "Statek",
+   "href": "#statek"
+  },
+  {
+   "text": "Pokoje",
+   "href": "#pokoje"
+  },
+  {
+   "text": "Obsazenost",
+   "href": "#obsazenost"
+  },
+  {
+   "text": "Ceník",
+   "href": "#cenik"
+  },
+  {
+   "text": "Okolí",
+   "href": "#okoli"
+  },
+  {
+   "text": "Kontakt",
+   "href": "#poptavka"
+  }
+ ]
+}

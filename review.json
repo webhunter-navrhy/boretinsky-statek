@@ -1,0 +1,15 @@
+{
+  "znamka": 7,
+  "slabiny": [
+    "Sekce Pokoje a apartmány (PC buňky 3–5, mobil 3–6): osm pokojů je jen textový seznam s modrými číselnými štítky a fotky pokojů jsou až pod ním v odděleném pásu tří obrázků. U penzionu se pokoje prodávají fotkou, takže to působí jako ceník, ne jako ubytování. Oprava: ke každému pokoji (nebo skupině 3·9, 4·5) dát jeho vlastní fotku z podklady/foto2 jako kartu (fotka nahoře, název, kapacita, 2 řádky textu). Modré čtverce s čísly zmenšit na drobný popisek „pokoj 1“, ať nepřipomínají číslované služby 01/02/03.",
+    "Koncept a hero (PC buňka 1–2, mobil 1): kostra je generická šablona penzionu (split hero s menší fotkou, pruh čtyř „výhod“, text s překrývajícími se fotkami, kalendář, ceník s akordeonem, galerie, formulář) a atmosféra statku z 18. století se v ní ztrácí. Oprava: hero přes celou šířku s nejsilnější fotkou (večerní dvůr se světly z galerie), nadpis přes fotku nebo pod ní ve velkém měřítku. Jeden motiv statku (např. jemná linka štítu nebo dvora z loga) nést jako dělítko sekcí místo béžových a modrých pruhů střídaných bez důvodu.",
+    "Kalendář obsazenosti a mobilní detaily (PC buňka 5–6, mobil 6–8, 12): kalendář s vymyšlenými termíny je sice označený jako ukázka, ale zabírá celou obrazovku a působí jako falešný prvek. Rafael falešné prvky odmítl. Oprava: zmenšit ho na kompaktní blok vedle CTA „Poslat poptávku“, nebo ho nahradit odkazem na formulář. Na mobilu v tabulce ceníku se „Děti 2–12 let“ láme na samotné „let“ (dát nbsp nebo zúžit sloupce). Odkazy na telefon a e-mail v kontaktu mají 16 px výšku, takže je zvětšit na tlačítka ≥ 44 px. Poslední fotka galerie zůstává osamocená v řádku, proto doplnit do sudého počtu."
+  ],
+  "silne": [
+    "Logo klienta vlevo v hlavičce a modrá paleta převzatá z loga (#43baff/#0088cc), světlý teplý podklad, žádný tmavý luxus",
+    "Reálné fotky statku a reálné texty z podstránek (pokoje, ceník, okolí, aktivity), ceny a sezóny konkrétně, nic zjevně vymyšleného",
+    "Typografie Young Serif + Figtree čitelná, háčky v pořádku, žádné přetečení na žádné z 6 šířek, jasné CTA na poptávku"
+  ],
+  "verdikt": "Opravit: čistý a pravdivý web ve značce klienta, ale působí jako šablona penzionu a atmosféru statku neprodává. Spárovat pokoje s fotkami, dát hero přes celou šířku a omezit kalendář, pak může jít ke klientovi.",
+  "_hash": "434e809fb01c781dc78ee430579840b328bcfc96"
+}

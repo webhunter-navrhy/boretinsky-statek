@@ -1,0 +1,66 @@
+{
+  "url": "http://127.0.0.1:56240/boretinsky-statek/",
+  "ok": true,
+  "chyby": [],
+  "varovani": [
+    "Web má noindex (u ostrého webu pravděpodobně chyba)",
+    "Dotykové cíle <40 px na mobilu: 3× (např. a.skip \"Přeskočit na obsah\" 135×27; a \"info@boretinskystate\" 152×16; a \"+420 776 444 477\" 112×16)"
+  ],
+  "metriky": {
+    "sirky": {
+      "1440": {
+        "scrollWidth": 1440,
+        "pocet_pretekajicich": 0
+      },
+      "1280": {
+        "scrollWidth": 1280,
+        "pocet_pretekajicich": 0
+      },
+      "1024": {
+        "scrollWidth": 1024,
+        "pocet_pretekajicich": 0
+      },
+      "820": {
+        "scrollWidth": 820,
+        "pocet_pretekajicich": 0
+      },
+      "390": {
+        "scrollWidth": 390,
+        "pocet_pretekajicich": 0
+      },
+      "360": {
+        "scrollWidth": 360,
+        "pocet_pretekajicich": 0
+      }
+    },
+    "preneseno_PC_MB": 0.91,
+    "nejvetsi_obrazek_PC": {
+      "kB": 208,
+      "url": "http://127.0.0.1:56240/boretinsky-statek/img/dum-1280.webp"
+    },
+    "snimku_PC": 10,
+    "preneseno_mobil_MB": 1.05,
+    "nejvetsi_obrazek_mobil": {
+      "kB": 208,
+      "url": "http://127.0.0.1:56240/boretinsky-statek/img/dum-1280.webp"
+    },
+    "snimku_mobil": 13,
+    "seo": {
+      "title": "Bořetínský statek – penzion u Jindřichova Hradce od 880 Kč",
+      "description": "Stylový penzion v původním statku z 18. století v Bořetíně u Jindřichova Hradce: 6 pokojů, 3 apartmá",
+      "lang": "cs",
+      "h1": 1,
+      "jsonld": [
+        true
+      ],
+      "robots": "noindex, nofollow",
+      "og_image": "https://webhunter-navrhy.github.io/boretinsky-statek/og.jpg",
+      "bez_v": [],
+      "canonical": true,
+      "viewport": true
+    },
+    "maly_dotykovy_cil": 3,
+    "font_nadpis": "Young Serif",
+    "font_text": "Figtree"
+  }
+}
