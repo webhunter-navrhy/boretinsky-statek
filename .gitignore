@@ -2,3 +2,6 @@ dist/
 .cache/
 qa/
 __pycache__/
+podklady/
+_snimky/
+kolaz_*.png
